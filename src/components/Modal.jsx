@@ -4,7 +4,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 const Modal = ({ onClose, isOpen, children }) => {
 
      return createPortal(
-          < >
+          <>
                {isOpen &&
                     <div className='grid place-items-center absolute top-0 z-40  h-screen w-screen backdrop-blur'>
                     <div className='m-auto top-0 relative z-50 min-h-[200px] max-w-[95%] bg-white p-4'>
